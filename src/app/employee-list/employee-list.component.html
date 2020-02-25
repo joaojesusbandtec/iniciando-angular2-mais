@@ -1,6 +1,17 @@
 <h1>Nossos Empregados</h1>
-
--- AppComponent
-    -- EmployeeList
-        -- OutroComponent
-    -- OutroComponent
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Salário</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let employee of employees">
+        <!-- <td>{{employee.name}}</td> -->
+        <!-- <td>{{employee.salary}}</td> -->
+        <td [innerHtml]="employee.name"></td>
+        <td [innerHtml]="employee.salary"></td>
+    </tr>
+    </tbody>
+</table>

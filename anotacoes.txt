@@ -6,3 +6,8 @@ Aula 3 - Disparando eventos
 () parenteses - evento - sempre vai alterar a programação, o template vai se comunicar com a programação Ex: (click)="addEmployee()" -> o template altera o componente
 [] colchetes - programação se comunica com o template Ex: [value="name"] -> o componente altera o template
 [()] - two way data binding
+
+Aula 4 - Lidando com coleções de dados
+
+*ngFor="" -> precisa do * antes, sintaxe com açúcar, simplifica o uso do ngFor, uso mais explícito, mais manual
+estamos usando a variavel da classe não a importação direta
