@@ -7,7 +7,13 @@ Aula 3 - Disparando eventos
 [] colchetes - programação se comunica com o template Ex: [value="name"] -> o componente altera o template
 [()] - two way data binding
 
+<!-- Template -> Componente -->
+<!-- Componente -> Template -->
+
 Aula 4 - Lidando com coleções de dados
 
 *ngFor="" -> precisa do * antes, sintaxe com açúcar, simplifica o uso do ngFor, uso mais explícito, mais manual
 estamos usando a variavel da classe não a importação direta
+
+Aula 5 - 
+Qualquer propriedade reativa que o valor retorna null angular não vai acrescentar essa propriedade na sua tag

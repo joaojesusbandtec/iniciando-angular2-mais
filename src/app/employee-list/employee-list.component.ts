@@ -8,11 +8,14 @@ import employees from '../employees';
 })
 export class EmployeeListComponent implements OnInit {
 
-  employees = employees;
+  employees_ = employees;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  getSalaryColor(employee){
+    return employee.salary > 20000?'green': null;
+  }
 }
