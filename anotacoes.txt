@@ -30,3 +30,13 @@ O serviço que está responsável por realizar inclusão e a lógica do bônus e
 e é algo que está embutido no próprio Angular.
 Se eu precisar receber outro serviço qualquer, eu já recebo no meu construtor.
 Em todos os lugares que eu estou utilizando esse serviço eu não preciso mudar nada porque não estou instanciando diretamente
+
+Aula 8 - Gerando aplicações de produção
+Precisa converter TypeScript para JavaScript - ng serve faz isso
+chunk {main} main.js, main.js.map (main) 25.3 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.73 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+ainda tem uma ferramenta embutida nisso chamada webpack (empacotador)
+ng build - vai gerar a pasta dist / seu-projeto
