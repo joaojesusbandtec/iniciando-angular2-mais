@@ -15,5 +15,12 @@ Aula 4 - Lidando com coleções de dados
 *ngFor="" -> precisa do * antes, sintaxe com açúcar, simplifica o uso do ngFor, uso mais explícito, mais manual
 estamos usando a variavel da classe não a importação direta
 
-Aula 5 - 
+Aula 5 - Brincando com propriedades reativas
 Qualquer propriedade reativa que o valor retorna null angular não vai acrescentar essa propriedade na sua tag
+
+Aula 6 - Mostrar ou esconder elementos
+Mostrar ou esconder algum elemento
+Pode usar *ngIf ou propriedade reativa [hidden] - sentido invertido: ngIf - eu quero mostrar se isso for < 1000
+								     Hidden - eu quero esconder se isso for >= 1000.
+Hidden - não destroi elemento
+Usa o hidden normalmente quando quer esconder um elemento específico

@@ -10,6 +10,7 @@ export class EmployeeNewComponent implements OnInit {
 
   name = '';
   salary = 0;
+  bonus = 0;
   employees = employees;
   
   constructor() { 
@@ -22,8 +23,9 @@ export class EmployeeNewComponent implements OnInit {
   }
 
   addEmployee(event){
+    const bonus = this.salary >= 1000 ? 0 : this.bonus;
     console.log(event);
-    this.employees.push({name: this.name, salary: this.salary});
+    this.employees.push({name: this.name, salary: this.salary, bonus: bonus});
     console.log(this.employees);
   }
 }
